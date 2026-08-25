@@ -1,26 +1,42 @@
 @import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* --- Jolix brand palette --- */
+  --ink: #0c1b33;        /* dark navy — dashboards, headers, footer */
+  --ink-2: #142c52;       /* lighter navy — cards on dark surfaces */
+  --beacon: #ff6a3d;      /* the one accent — buttons, live pulses */
+  --beacon-2: #ff8b64;    /* lighter beacon — hover states */
+  --route: #2f6fed;       /* links, map route lines */
+  --signal: #1fae64;      /* delivered / success only */
+  --cloud: #f6f7fb;       /* light background */
+  --slate: #5b6478;       /* secondary text */
+  --white: #ffffff;
+
+  --background: var(--cloud);
+  --foreground: var(--ink);
 }
 
 @theme inline {
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-beacon: var(--beacon);
+  --color-beacon-2: var(--beacon-2);
+  --color-route: var(--route);
+  --color-signal: var(--signal);
+  --color-cloud: var(--cloud);
+  --color-slate: var(--slate);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-space-grotesk);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
