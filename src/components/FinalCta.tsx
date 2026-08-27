@@ -22,7 +22,7 @@ export default function FinalCta() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href="/signup"
+              href="/ship"
               className="bg-beacon hover:bg-beacon-2 transition-colors text-white font-medium px-7 py-3.5 rounded-full"
             >
               Create a shipment

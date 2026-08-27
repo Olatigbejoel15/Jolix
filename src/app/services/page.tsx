@@ -58,7 +58,7 @@ export default function ServicesPage() {
           <div className="relative mx-auto max-w-2xl px-6 py-20 text-center">
             <h2 className="font-display font-semibold text-3xl mb-4">Ready to ship?</h2>
             <p className="text-white/90 mb-8">Get an instant price — no account required.</p>
-            <Link href="/signup" className="inline-flex items-center gap-2 bg-ink hover:bg-ink-2 transition-colors text-white font-medium px-7 py-3.5 rounded-full">
+            <Link href="/ship" className="inline-flex items-center gap-2 bg-ink hover:bg-ink-2 transition-colors text-white font-medium px-7 py-3.5 rounded-full">
               Create a shipment <i className="bi bi-arrow-right"></i>
             </Link>
           </div>

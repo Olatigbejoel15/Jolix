@@ -21,7 +21,7 @@ export default function Footer() {
           <ul className="space-y-2.5 text-sm">
             <li><Link href="/track" className="hover:text-beacon transition-colors">Track a shipment</Link></li>
             <li><Link href="/drivers" className="hover:text-beacon transition-colors">Drive with Jolix</Link></li>
-            <li><Link href="/signup" className="hover:text-beacon transition-colors">Create a shipment</Link></li>
+            <li><Link href="/ship" className="hover:text-beacon transition-colors">Create a shipment</Link></li>
           </ul>
         </div>
 

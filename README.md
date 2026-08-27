@@ -37,3 +37,9 @@ Then open http://localhost:3000
 - Built About, Services, and Contact pages (all footer links now go somewhere real)
 - Contact page includes a working form with a confirmation state
 - Entire public-facing site is now complete: Home, Login, Signup, Track, Drivers (+ apply), About, Services, Contact
+
+### Day 5
+- Built the full driver portal: DriverLayout (sidebar + mobile drawer), Today's Deliveries (accept/start actions), Delivery Detail (status progression, proof-of-delivery photo upload, notes), Earnings, and Driver Profile
+- Added the Jolix favicon (icon.svg), reusing the delivery van shapes from DeliveryScene for brand consistency
+- Fixed all "Create a shipment" links across the site to point to the new standalone /ship page instead of /signup, preserving guest checkout
+- Moved shipment creation out of the customer dashboard into its own /ship route, so it stays accessible without login while /dashboard remains the logged-in-only area

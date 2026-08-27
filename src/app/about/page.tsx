@@ -72,7 +72,7 @@ export default function AboutPage() {
             <h2 className="font-display font-semibold text-3xl mb-4">Want to be part of it?</h2>
             <p className="text-white/90 mb-8">Ship with us, or drive with us — either way, welcome.</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/signup" className="bg-ink hover:bg-ink-2 transition-colors text-white font-medium px-6 py-3 rounded-full">
+              <Link href="/ship" className="bg-ink hover:bg-ink-2 transition-colors text-white font-medium px-6 py-3 rounded-full">
                 Create a shipment
               </Link>
               <Link href="/drivers" className="border border-white/30 hover:border-white/50 transition-colors text-white font-medium px-6 py-3 rounded-full">

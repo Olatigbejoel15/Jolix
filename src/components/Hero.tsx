@@ -45,7 +45,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/signup"
+              href="/ship"
               className="bg-beacon hover:bg-beacon-2 transition-colors text-white font-medium px-6 py-3 rounded-full"
             >
               Create a shipment
