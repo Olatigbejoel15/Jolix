@@ -32,3 +32,8 @@ Then open http://localhost:3000
 - Built Track a shipment: search page + dynamic /track/[trackingId] results page with progress timeline
 - Built the full Drive with Jolix page (hero, perks, requirements, how it works, FAQ, CTA)
 - Built the driver application form at /drivers/apply, with a confirmation state on submit
+
+### Day 4
+- Built About, Services, and Contact pages (all footer links now go somewhere real)
+- Contact page includes a working form with a confirmation state
+- Entire public-facing site is now complete: Home, Login, Signup, Track, Drivers (+ apply), About, Services, Contact
