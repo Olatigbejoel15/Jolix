@@ -43,3 +43,11 @@ Then open http://localhost:3000
 - Added the Jolix favicon (icon.svg), reusing the delivery van shapes from DeliveryScene for brand consistency
 - Fixed all "Create a shipment" links across the site to point to the new standalone /ship page instead of /signup, preserving guest checkout
 - Moved shipment creation out of the customer dashboard into its own /ship route, so it stays accessible without login while /dashboard remains the logged-in-only area
+
+### Day 6
+- Built the full admin dashboard: AdminLayout, Overview (stats + weekly shipment chart), Shipments (search, filter, driver assignment, cancel), Drivers (add, activate/deactivate, performance), Fleet (vehicles, assignment, maintenance log), Analytics (revenue bar chart, shipment line chart, status breakdown donut chart)
+- Installed Recharts for all chart rendering
+- Entire Jolix frontend is now complete: full public site, customer dashboard, driver portal, and admin dashboard — all three portals from the original spec, built with mock data standing in for the real backend
+
+## Next phase
+Frontend is done. Next up: the Laravel backend — real database, authentication (Sanctum), real pricing via a maps API, real tracking ID generation, payments (Paystack), and Laravel Reverb for live tracking via WebSockets. Maps (Mapbox/Google Maps) also deferred until real GPS data exists.
