@@ -11,7 +11,7 @@ export default function Footer() {
             Jolix
           </Link>
           <p className="text-sm leading-relaxed">
-            Track every delivery, live — from pickup to your door.
+            Track every delivery, live ; from pickup to your door.
           </p>
         </div>
 

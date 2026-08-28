@@ -36,14 +36,14 @@ export default function ContactPage() {
                 <i className="bi bi-envelope-fill text-beacon mt-0.5"></i>
                 <div>
                   <p className="text-sm font-semibold text-ink">Email</p>
-                  <p className="text-slate text-sm">support@jolix.com</p>
+                  <p className="text-slate text-sm">joeloladipupo@jolix.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <i className="bi bi-telephone-fill text-beacon mt-0.5"></i>
                 <div>
                   <p className="text-sm font-semibold text-ink">Phone</p>
-                  <p className="text-slate text-sm">+234 800 000 0000</p>
+                  <p className="text-slate text-sm">+234 704 029 9438</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">

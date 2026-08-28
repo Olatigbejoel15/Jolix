@@ -7,7 +7,7 @@ const steps = [
   {
     icon: "bi-box-seam-fill",
     title: "Create a shipment",
-    desc: "Enter pickup and dropoff, package type and weight — get an instant price.",
+    desc: "Enter pickup and dropoff, package type and weight , get an instant price.",
   },
   {
     icon: "bi-person-check-fill",
@@ -55,7 +55,7 @@ export default function HowItWorks() {
             className="bg-ink text-white rounded-2xl p-6 shadow-xl shadow-ink/20"
           >
             <div className="flex items-center justify-between mb-6">
-              <span className="font-mono text-sm text-white/60">ST-2026-84921</span>
+              <span className="font-mono text-sm text-white/60">ST-2026-12345</span>
               <span className="flex items-center gap-1.5 bg-beacon/20 text-beacon text-xs font-medium px-3 py-1 rounded-full">
                 <i className="bi bi-truck"></i> In Transit
               </span>

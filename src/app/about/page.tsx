@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 const values = [
   { icon: "bi-shield-check", title: "Reliability", desc: "Every delivery is tracked, verified, and accounted for, start to finish." },
-  { icon: "bi-eye-fill", title: "Transparency", desc: "No hidden statuses — you see exactly where your package is, always." },
+  { icon: "bi-eye-fill", title: "Transparency", desc: "No hidden statuses , you see exactly where your package is, always." },
   { icon: "bi-lightning-charge-fill", title: "Speed", desc: "From pickup to dispatch, we move fast without cutting corners." },
 ];
 
@@ -22,8 +22,8 @@ export default function AboutPage() {
               <p className="font-mono text-beacon text-sm tracking-widest uppercase mb-3">About us</p>
               <h1 className="font-display font-semibold text-4xl md:text-5xl mb-5">Built to move things forward</h1>
               <p className="text-white/70 text-lg max-w-xl mx-auto">
-                Jolix exists to make sending something across town — or across
-                borders — as easy as watching it happen, live, on your phone.
+                Jolix exists to make sending something across town , or across
+                borders , as easy as watching it happen, live, on your phone.
               </p>
             </motion.div>
           </div>
@@ -34,8 +34,8 @@ export default function AboutPage() {
             <h2 className="font-display font-semibold text-2xl md:text-3xl text-ink mb-5">Our mission</h2>
             <p className="text-slate leading-relaxed">
               Too many deliveries still rely on a phone call and a guess. We
-              built Jolix to replace that uncertainty with real visibility —
-              connecting customers, drivers, and dispatchers on one platform,
+              built Jolix to replace that uncertainty with real visibility.
+              Connecting customers, drivers, and dispatchers on one platform,
               so every shipment is tracked the moment it leaves your hands
               until the moment it&apos;s signed for.
             </p>
@@ -70,7 +70,7 @@ export default function AboutPage() {
           <i className="bi bi-truck absolute -right-10 -bottom-10 text-[220px] text-white/10 pointer-events-none"></i>
           <div className="relative mx-auto max-w-2xl px-6 py-20 text-center">
             <h2 className="font-display font-semibold text-3xl mb-4">Want to be part of it?</h2>
-            <p className="text-white/90 mb-8">Ship with us, or drive with us- either way, welcome.</p>
+            <p className="text-white/90 mb-8">Ship with us, or drive with us. Either way, welcome.</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/ship" className="bg-ink hover:bg-ink-2 transition-colors text-white font-medium px-6 py-3 rounded-full">
                 Create a shipment

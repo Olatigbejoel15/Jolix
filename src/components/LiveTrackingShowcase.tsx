@@ -21,7 +21,7 @@ export default function LiveTrackingShowcase() {
             Not a status label. An actual live location.
           </h2>
           <p className="text-white/70 text-lg mb-8 max-w-md">
-            Every Jolix delivery reports its real position as it moves — so
+            Every Jolix delivery reports its real position as it moves ; so
             &quot;in transit&quot; means you can see exactly where it is, not just
             take our word for it.
           </p>

@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const services = [
-  { icon: "bi-lightning-charge-fill", title: "Same-day delivery", desc: "Within-city pickup and drop-off, completed the same day — ideal for urgent, local sends." },
+  { icon: "bi-lightning-charge-fill", title: "Same-day delivery", desc: "Within-city pickup and drop-off, completed the same day, ideal for urgent, local sends." },
   { icon: "bi-signpost-split-fill", title: "Interstate delivery", desc: "Lagos to Abuja and every state in between, tracked door to door on every leg of the journey." },
   { icon: "bi-globe-americas", title: "International delivery", desc: "Shipping to the UK, Europe, African countries, and Canada, with full customs documentation support." },
   { icon: "bi-building-fill", title: "Bulk & business shipping", desc: "Recurring or high-volume shipments for growing businesses, with dedicated dispatch support." },
@@ -25,8 +25,8 @@ export default function ServicesPage() {
               <p className="font-mono text-beacon text-sm tracking-widest uppercase mb-3">Services</p>
               <h1 className="font-display font-semibold text-4xl md:text-5xl mb-5">Wherever it&apos;s going, we&apos;ll get it there</h1>
               <p className="text-white/70 text-lg max-w-xl mx-auto">
-                From a same-day drop across town to a shipment crossing
-                borders — pick the service that fits.
+                From a same day drop across town to a shipment crossing
+                borders. Pick the service that fits.
               </p>
             </motion.div>
           </div>
@@ -57,7 +57,7 @@ export default function ServicesPage() {
           <i className="bi bi-truck absolute -right-10 -bottom-10 text-[220px] text-white/10 pointer-events-none"></i>
           <div className="relative mx-auto max-w-2xl px-6 py-20 text-center">
             <h2 className="font-display font-semibold text-3xl mb-4">Ready to ship?</h2>
-            <p className="text-white/90 mb-8">Get an instant price — no account required.</p>
+            <p className="text-white/90 mb-8">Get an instant price, no account required.</p>
             <Link href="/ship" className="inline-flex items-center gap-2 bg-ink hover:bg-ink-2 transition-colors text-white font-medium px-7 py-3.5 rounded-full">
               Create a shipment <i className="bi bi-arrow-right"></i>
             </Link>

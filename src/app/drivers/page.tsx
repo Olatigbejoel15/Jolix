@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const perks = [
-  { icon: "bi-clock-fill", title: "Flexible hours", desc: "Drive when it suits you — no fixed shifts." },
+  { icon: "bi-clock-fill", title: "Flexible hours", desc: "Drive when it suits you, no fixed shifts." },
   { icon: "bi-cash-stack", title: "Weekly payouts", desc: "Get paid every week, straight to your account." },
   { icon: "bi-geo-alt-fill", title: "Nearby deliveries", desc: "Matched to pickups close to where you already are." },
   { icon: "bi-file-earmark-x-fill", title: "No long contracts", desc: "Start, pause, or stop driving whenever you choose." },
@@ -53,7 +53,7 @@ export default function DriversPage() {
               </h1>
               <p className="text-white/70 text-lg mb-8 max-w-xl mx-auto">
                 Set your own hours, get matched to nearby deliveries, and get
-                paid weekly — all you need is a valid license and a vehicle.
+                paid weekly. All you need is a valid license and a vehicle.
               </p>
               <Link
                 href="/drivers/apply"
