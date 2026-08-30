@@ -13,7 +13,7 @@ const progressSteps = [
 
 // Set to 3 (the last step, "Delivered") so you can see the rating section
 // below — in a real app this comes from the actual shipment's status.
-const currentStep = 3;
+const currentStep = 2;
 
 const history = [
   { time: "Today, 9:12 AM", text: "Package picked up in Lagos" },
