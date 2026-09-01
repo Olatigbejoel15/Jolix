@@ -11,7 +11,7 @@ export default function Footer() {
             Jolix
           </Link>
           <p className="text-sm leading-relaxed">
-            Track every delivery, live ; from pickup to your door.
+            Track every delivery, live — from pickup to your door.
           </p>
         </div>
 
@@ -49,10 +49,24 @@ export default function Footer() {
             <a href="#" aria-label="Instagram" className="hover:text-beacon transition-colors">
               <i className="bi bi-instagram"></i>
             </a>
-            <a href="#" aria-label="Facebook" className="hover:text-beacon transition-colors">
-              <i className="bi bi-facebook"></i>
+            <a href="#" aria-label="LinkedIn" className="hover:text-beacon transition-colors">
+              <i className="bi bi-linkedin"></i>
             </a>
           </div>
+        </div>
+      </div>
+
+      {/* Giant wordmark section — its own space, below the links, above
+          the copyright bar. Not layered behind anything. */}
+      <div className="overflow-hidden border-t border-white/10 py-6">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none select-none flex items-center justify-center gap-[2vw] whitespace-nowrap"
+        >
+          <p className="font-display font-semibold text-white/[0.08] leading-none text-[22vw]">
+            JOLIX
+          </p>
+          <i className="bi bi-truck text-white/[0.08] text-[10vw]"></i>
         </div>
       </div>
 
