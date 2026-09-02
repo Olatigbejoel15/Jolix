@@ -51,3 +51,8 @@ Then open http://localhost:3000
 
 ## Next phase
 Frontend is done. Next up: the Laravel backend — real database, authentication (Sanctum), real pricing via a maps API, real tracking ID generation, payments (Paystack), and Laravel Reverb for live tracking via WebSockets. Maps (Mapbox/Google Maps) also deferred until real GPS data exists.
+
+### Day 7
+- Added a super_admin role, alongside customer/driver/admin, for managing admin accounts
+- Built the Super Admin portal (separate URL, /super-admin): distinct sidebar, Manage Admins page (add/deactivate admin accounts), with a link into the regular Admin dashboard for day-to-day operations
+- Backend: created the shipments table migration, Shipment model, and the first real API endpoint — POST /api/shipments — with server-side validation, real pricing calculation, and guaranteed-unique tracking ID generation (tested and working)
